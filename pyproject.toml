@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pythonapicuurentchange"
+version = "0.1.0"
+description = ""
+authors = ["Alexey <alexey.kostenyu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
